@@ -5,6 +5,12 @@
   margin: 75px auto;
   background: linear-gradient(90deg,maroon,silver);
 }
+
+.grad:hover {
+  background: linear-gradient(90deg,silver, maroon);
+  transform: scale(1.1);
+}
+
 .rep{ 
 border-radius: 20px;
 width: 70%;
@@ -24,4 +30,8 @@ background: repeating-linear-gradient(
   violet 200px,
   #fff 225px
 );
+}
+
+.rep:hover {
+  transform: scale(.9);
 }
