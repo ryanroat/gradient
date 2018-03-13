@@ -11,15 +11,17 @@ width: 70%;
 height: 400px;
 margin:  75px auto;
 background: repeating-linear-gradient(
-  45deg,
-  red 0px,
-  yellow 50px,
+  60deg,
+  #fff 00px,
+  red 15px,
+  orange 35px,
   yellow 65px,
-  green 90px,
-  green 100px,
-  blue 100px,
+  green 95px,
+  green 110px,
   blue 110px,
-  indigo 150px,
-  violet 200px
+  blue 130px,
+  indigo 160px,
+  violet 200px,
+  #fff 225px
 );
 }
